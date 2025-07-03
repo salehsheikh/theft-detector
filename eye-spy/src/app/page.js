@@ -1,0 +1,28 @@
+import React from 'react'
+import Navbar from './components/Navbar'
+import TopCards from './components/dashboard/TopCards'
+import DonutCard from './components/dashboard/DonutCard'
+import BarCard from './components/dashboard/BarCard'
+import RecentCard from './components/dashboard/RecentCard'
+
+const page = () => {
+  return (
+    <div>
+      <Navbar/>
+      <div className='mx-[63px] space-y-9'>
+      <div><TopCards/></div>
+     <div className=' gap-[38px] w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3'>
+  <div className='flex-1 min-w-0'><DonutCard /></div>
+  <div className='flex-1 min-w-0'><BarCard /></div>
+  <div className='flex-1 min-w-0'><RecentCard /></div>
+</div>
+    
+      </div>
+      
+  
+    </div>
+    
+  )
+}
+
+export default page
