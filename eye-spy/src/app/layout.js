@@ -1,9 +1,15 @@
-import { Geist, Geist_Mono } from "next/font/google";
+import { Geist, Geist_Mono, Karma } from "next/font/google";
 import "./globals.css";
+import Navbar from "./components/Navbar";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
+});
+const karma = Karma({
+  subsets: ["latin"],
+  weight: ["500", "700"], 
+  variable: "--font-karma", 
 });
 
 const geistMono = Geist_Mono({
@@ -20,13 +26,14 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} ${karma.variable} antialiased`}
         style={{
           backgroundColor: "var(--color-dark)",
           
         }}
       
       >
+        <Navbar/>
         {children}
       </body>
     </html>
