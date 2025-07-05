@@ -7,20 +7,20 @@ import RecentCard from './components/dashboard/RecentCard'
 const page = () => {
   return (
     <div>
-      
-      <div className='md:mx-[63px] mx-4 space-y-9'>
-      <div><TopCards/></div>
-     <div className=' gap-[38px] w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3'>
-  <div className='flex-1 min-w-0'><DonutCard /></div>
-  <div className='flex-1 min-w-0'><BarCard /></div>
-  <div className='flex-1 min-w-0'><RecentCard /></div>
-</div>
-    
+
+      <div className='md:mx-[63px] mx-4 space-y-9 pb-2'>
+        <div><TopCards /></div>
+        <div className=' gap-[38px] w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3'>
+          <div className='flex-1 min-w-0'><DonutCard /></div>
+          <div className='flex-1 min-w-0'><BarCard /></div>
+          <div className='flex-1 min-w-0'><RecentCard /></div>
+        </div>
+
       </div>
-      
-  
+
+
     </div>
-    
+
   )
 }
 

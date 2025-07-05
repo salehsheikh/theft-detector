@@ -8,8 +8,8 @@ const geistSans = Geist({
 });
 const karma = Karma({
   subsets: ["latin"],
-  weight: ["500", "700"], 
-  variable: "--font-karma", 
+  weight: ["500", "700"],
+  variable: "--font-karma",
 });
 
 const geistMono = Geist_Mono({
@@ -27,13 +27,13 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body
         className={`${geistSans.variable} ${geistMono.variable} ${karma.variable} antialiased`}
-        style={{
-          backgroundColor: "var(--color-dark)",
-          
-        }}
-      
+      // style={{
+      //   backgroundColor: "#2D2D2D",
+
+      // }}
+
       >
-        <Navbar/>
+        <Navbar />
         {children}
       </body>
     </html>

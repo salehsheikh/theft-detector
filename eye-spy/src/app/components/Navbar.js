@@ -14,7 +14,7 @@ const Navbar = () => {
     { label: "Dashboard", href: "/" },
     { label: "Users", href: "/users" },
     { label: "Real Time Alerts", href: "/alerts" },
-    { label: "Alert History", href: "/history" },
+    { label: "Alert History", href: "/alert-history" },
     { label: "Profile & Settings", href: "/profile" },
   ];
 
@@ -48,9 +48,8 @@ const Navbar = () => {
             <Link
               key={item.href}
               href={item.href}
-              className={`text-sm font-medium cursor-pointer whitespace-nowrap transition-all duration-300 ${
-                pathname === item.href ? activeStyle : "px-3 py-2"
-              }`}
+              className={`text-sm font-medium cursor-pointer whitespace-nowrap transition-all duration-300 ${pathname === item.href ? activeStyle : "px-3 py-2"
+                }`}
             >
               {item.label}
             </Link>
@@ -71,9 +70,8 @@ const Navbar = () => {
             <Link
               key={item.href}
               href={item.href}
-              className={`block text-sm font-medium cursor-pointer transition-all duration-300 ${
-                pathname === item.href ? activeStyle : "py-2 px-3"
-              }`}
+              className={`block text-sm font-medium cursor-pointer transition-all duration-300 ${pathname === item.href ? activeStyle : "py-2 px-3"
+                }`}
               onClick={() => setIsOpen(false)}
             >
               {item.label}

@@ -57,21 +57,21 @@ const Page = () => {
       joiningDate: "June 10, 2021",
       action: "View",
     },
-      {
+    {
       name: "Emma Watson",
       email: "emmawatson@example.com",
       role: "Monitoring Staff",
       joiningDate: "May 13, 2022",
       action: "View",
     },
-       {
+    {
       name: "John Doe",
       email: "johndoe@example.com",
       role: "Analyst",
       joiningDate: "June 10, 2021",
       action: "View",
     },
-      {
+    {
       name: "Emma Watson",
       email: "emmawatson@example.com",
       role: "Monitoring Staff",
@@ -81,7 +81,7 @@ const Page = () => {
   ];
 
   return (
-    <div className="md:mx-[63px] mx-4">
+    <div className="md:mx-[63px] mx-4 pb-2">
       <div>
         <p className="text-[20px] font-semibold text-white pb-2.5 z-50">User Management</p>
         <p className="pb-3.5 text-white text-sm font-medium z-50">
@@ -93,7 +93,7 @@ const Page = () => {
         <UserWrapper />
         <div>
           <p className="text-2xl leading-5 text-white font-semibold pb-5.5">Users</p>
-          <DataTable columns={columns} data={data} />
+          <DataTable columns={columns} data={data} highlightHeader={true} />
         </div>
 
         {isModalOpen && (
