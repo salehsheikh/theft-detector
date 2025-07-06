@@ -2,7 +2,7 @@
 import ForgetPassword from '@/app/components/auth/ForgetPassword'
 import React from 'react'
 
-const page = () => {
+const Page = () => {
     return (
         <div>
             <ForgetPassword />
@@ -10,4 +10,4 @@ const page = () => {
     )
 }
 
-export default page
+export default Page

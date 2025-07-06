@@ -3,7 +3,7 @@ import AlertsTable from '@/app/components/timealerts/AlertsTable'
 import FilterSection from '@/app/components/timealerts/FilterSection'
 import React from 'react'
 
-const page = () => {
+const Page = () => {
   return (
     <div className='md:mx-[63px] mx-4 space-y-7.5 pb-2'>
       <div>
@@ -21,4 +21,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Page

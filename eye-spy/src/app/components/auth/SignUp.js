@@ -1,4 +1,5 @@
 import { Icon } from '@iconify/react'
+import Image from 'next/image';
 import { useRouter } from 'next/navigation'
 import React from 'react'
 
@@ -104,9 +105,9 @@ const SignUp = () => {
 
                 {/* Logos */}
                 <div className="flex gap-6 mt-4">
-                    <img src="/icons/facebook.svg" alt="Facebook" className="size-10.5" />
-                    <img src="/icons/devicon_google.svg" alt="Google" className="size-10.5" />
-                    <img src="/icons/bi_github.svg" alt="Twitter" className="size-10.5" />
+                    <Image src="/icons/facebook.svg" alt="Facebook" width={42} height={42} />
+                    <Image src="/icons/devicon_google.svg" alt="Google" width={42} height={42} />
+                    <Image src="/icons/bi_github.svg" alt="Twitter" width={42} height={42} />
                 </div>
 
                 {/* Sign Up */}

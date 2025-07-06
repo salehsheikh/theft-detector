@@ -7,7 +7,7 @@ import StoreInfo from '@/app/components/profile/StoreInfo'
 import { useRouter } from 'next/navigation'
 import React, { useState } from 'react'
 
-const page = () => {
+const Page = () => {
     const [showDeleteConfirmationModal, setShowDeleteConfirmationModal] = useState(false);
     const router = useRouter();
 
@@ -77,4 +77,4 @@ const page = () => {
     )
 }
 
-export default page
+export default Page

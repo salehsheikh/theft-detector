@@ -43,17 +43,17 @@ const DeliverySection = () => {
                     <div className='space-y-1'>
                         <p className="flex items-center gap-1 text-xs font-medium">
                             <span className="w-[7px] h-[7px] rounded-full bg-[#B1ED00]"></span>
-                            <Image src="/icons/fedex.svg" width={23} height={23} />
+                            <Image src="/icons/fedex.svg" width={23} height={23} alt='img' />
                             FedEX
                         </p>
                         <p className="flex items-center gap-1 text-xs font-medium">
                             <span className="w-[7px] h-[7px] rounded-full bg-[#959595]"></span>
-                            <Image src="/icons/ups.svg" width={23} height={23} />
+                            <Image src="/icons/ups.svg" width={23} height={23} alt='img' />
                             UPS
                         </p>
                         <p className="flex items-center gap-1 text-xs font-medium">
                             <span className="w-[7px] h-[7px] rounded-full bg-[#959595]"></span>
-                            <Image src="/icons/courier.svg" width={23} height={23} />
+                            <Image src="/icons/courier.svg" width={23} height={23} alt='img' />
                             Local Courier
                         </p>
                     </div>

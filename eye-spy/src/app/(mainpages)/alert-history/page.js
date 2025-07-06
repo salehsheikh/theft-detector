@@ -4,7 +4,7 @@ import CtaModal from '@/app/components/modals/CtaModal';
 import DataTable from '@/app/shared/DataTable';
 import React, { useState } from 'react'
 
-const page = () => {
+const Page = () => {
     const [selectedUser, setSelectedUser] = useState(null);
 
     const [isModalOpen, setIsModalOpen] = useState(false);
@@ -158,4 +158,4 @@ const page = () => {
     )
 }
 
-export default page
+export default Page
