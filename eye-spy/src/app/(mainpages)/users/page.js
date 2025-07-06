@@ -97,8 +97,9 @@ const Page = () => {
         </div>
 
         {isModalOpen && (
-          <div className="absolute inset-0 z-40">
-            <ViewModal user={selectedUser} onClose={() => setIsModalOpen(false)} />
+          <div >
+            <ViewModal user={selectedUser} onClose={() => setIsModalOpen(false)}
+              closeViewModal={() => setIsModalOpen(false)} />
           </div>
         )}
       </div>

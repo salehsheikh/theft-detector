@@ -1,6 +1,7 @@
 import { Geist, Geist_Mono, Karma } from "next/font/google";
 import "./globals.css";
 import Navbar from "./components/Navbar";
+import AuthLayout from "./components/auth/AuthLayout";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -27,14 +28,9 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body
         className={`${geistSans.variable} ${geistMono.variable} ${karma.variable} antialiased`}
-      // style={{
-      //   backgroundColor: "#2D2D2D",
-
-      // }}
-
       >
-        <Navbar />
-        {children}
+
+        <AuthLayout>{children}</AuthLayout>
       </body>
     </html>
   );

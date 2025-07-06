@@ -4,7 +4,7 @@ import React from 'react'
 
 const CtaModal = ({ onClose }) => {
     return (
-        <div className="fixed inset-x-0 inset-y-24 bg-[color:var(--color-dark)] z-40 flex items-center justify-center">
+        <div className="fixed inset-x-0 2xl:inset-y-24 inset-y-0 bg-[color:var(--color-dark)] z-40 flex items-center justify-center">
             <div className='flex-col space-y-[17px]'>
                 <div className='flex justify-between'>
                     <div className='flex gap-5'>
@@ -33,11 +33,11 @@ const CtaModal = ({ onClose }) => {
                     </button>
                     <button className='w-[198px] h-10 bg-transparent rounded-[10px] text-[#FF2D55] border border-pink-600 text-sm font-semibold
                     leading-5 flex items-center justify-center'>
-                        Mark as resolved
+                        Unresolved
                     </button>
-                    <button className='w-[198px] h-10 bg-[#FF950080] rounded-[10px] text-white border  text-sm font-semibold
+                    <button className='w-[198px] h-10 bg-[#FF950080] rounded-[10px] text-white   text-sm font-semibold
                     leading-5 flex items-center justify-center'>
-                        Mark as resolved
+                        Pending
                     </button>
                 </div>
             </div>
