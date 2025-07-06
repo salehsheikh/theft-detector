@@ -128,6 +128,7 @@ const Page = () => {
             <div className='md:mx-[63px] mx-4 space-y-7.5 pb-2'>
                 <div className='flex justify-between'>
                     <div>
+
                         <p className="text-[20px] font-semibold text-white pb-2.5 z-50">Alert History</p>
                         <p className="pb-3.5 text-white text-sm font-medium z-50">
                             Review and analyze past security incidents
