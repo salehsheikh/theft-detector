@@ -3,9 +3,9 @@ import React from 'react'
 
 const StoreInfo = () => {
     return (
-        <div className='rounded-[20px] bg-[color:var(--color-darkest)] h-[180px] text-white px-[33px] py-5'>
+        <div className='rounded-[20px] bg-[color:var(--color-darkest)] md:h-[180px] text-white px-[33px] py-5'>
             <p className='text-sm font-semibold'>Store Information</p>
-            <div className='flex justify-between pt-[23px]'>
+            <div className='flex flex-wrap  md:flex-row md:flex justify-between pt-[23px]'>
                 <div className='flex-col space-y-5 '>
                     <div className='flex gap-6.5'>
                         <p className='text-sm font-medium'>

@@ -12,75 +12,87 @@ const AlertsTable = () => {
 
 
                 <div className='bg-[color:var(--color-darkest)] overflow-y-auto rounded-[20px] max-h-[432px] h-full py-[29px] px-[33px] space-y-[15px]'>
-                    <div className='flex justify-between border-b border-white space-y-[15px]'>
-                        <div className='flex gap-[15px] items-center'>
+                    <div className='flex-col lg:flex lg:flex-row justify-between border-b border-white space-y-[15px] pb-2 lg:pb-0'>
+                        <div className='flex gap-[15px] items-center '>
                             <Image width="86" height="86" alt='img' src="/images/lady.svg" />
                             <p className='text-white font-medium'>Customer placing item in personal bag without scanning</p>
                         </div>
-                        <div className='flex gap-7 items-center'>
+                        <div className='flex-col flex sm:flex-row gap-7 items-center'>
                             <button
                                 onClick={() => setIsModalOpen(true)}
-                                className='text-base cursor-pointer text-[#0D0D0D] px-[31px] py-3.5 rounded-[10px] font-semibold bg-[#B1ED00] w-[167px] h-12'>
+                                className='text-base cursor-pointer text-[#0D0D0D] px-[31px] py-3.5 rounded-[10px] font-semibold bg-[#B1ED00] w-full xs:w-[167px] h-12'>
                                 View Clip
                             </button>
                             <button
                                 onClick={() => setIsFeedModalOpen(true)}
-                                className='text-base cursor-pointer text-[#0D0D0D] px-[31px] py-3.5 rounded-[10px] font-semibold bg-[#FFFFFF66] w-[167px] h-12'>
+                                className='text-base cursor-pointer text-[#0D0D0D] px-[31px] py-3.5 rounded-[10px] font-semibold bg-[#FFFFFF66] w-full xs:w-[167px] h-12'>
                                 Live Feed
                             </button>
-                            <button className='text-base text-[#0D0D0D] px-[21px] py-3.5 rounded-[10px] font-semibold bg-white/30 w-[167px] h-12'>
+                            <button className='text-base text-[#0D0D0D] px-[21px] py-3.5 rounded-[10px] font-semibold bg-white/30 w-full xs:w-[167px] h-12'>
                                 Mark reviewed
                             </button>
                         </div>
                     </div>
-                    <div className='flex justify-between border-b border-white space-y-[15px]'>
-                        <div className='flex gap-[15px] items-center'>
+                     <div className='flex-col lg:flex lg:flex-row justify-between border-b border-white space-y-[15px] pb-2 lg:pb-0'>
+                        <div className='flex gap-[15px] items-center '>
                             <Image width="86" height="86" alt='img' src="/images/lady.svg" />
                             <p className='text-white font-medium'>Customer placing item in personal bag without scanning</p>
                         </div>
-                        <div className='flex gap-7 items-center'>
-                            <button className='text-base text-[#0D0D0D] px-[31px] py-3.5 rounded-[10px] font-semibold bg-[#B1ED00] w-[167px] h-12'>
+                        <div className='flex-col flex sm:flex-row gap-7 items-center'>
+                            <button
+                                onClick={() => setIsModalOpen(true)}
+                                className='text-base cursor-pointer text-[#0D0D0D] px-[31px] py-3.5 rounded-[10px] font-semibold bg-[#B1ED00] w-full xs:w-[167px] h-12'>
                                 View Clip
                             </button>
-                            <button className='text-base text-[#0D0D0D] px-[31px] py-3.5 rounded-[10px] font-semibold bg-[#FFFFFF66] w-[167px] h-12'>
+                            <button
+                                onClick={() => setIsFeedModalOpen(true)}
+                                className='text-base cursor-pointer text-[#0D0D0D] px-[31px] py-3.5 rounded-[10px] font-semibold bg-[#FFFFFF66] w-full xs:w-[167px] h-12'>
                                 Live Feed
                             </button>
-                            <button className='text-base text-[#0D0D0D] px-[31px] py-3.5 rounded-[10px] font-semibold bg-white/30 w-[167px] h-12'>
-                                Live Feed
+                            <button className='text-base text-[#0D0D0D] px-[21px] py-3.5 rounded-[10px] font-semibold bg-white/30 w-full xs:w-[167px] h-12'>
+                                Mark reviewed
                             </button>
                         </div>
                     </div>
-                    <div className='flex justify-between border-b border-white space-y-[15px]'>
-                        <div className='flex gap-[15px] items-center'>
+                     <div className='flex-col lg:flex lg:flex-row justify-between border-b border-white space-y-[15px] pb-2 lg:pb-0'>
+                        <div className='flex gap-[15px] items-center '>
                             <Image width="86" height="86" alt='img' src="/images/lady.svg" />
                             <p className='text-white font-medium'>Customer placing item in personal bag without scanning</p>
                         </div>
-                        <div className='flex gap-7 items-center'>
-                            <button className='text-base text-[#0D0D0D] px-[31px] py-3.5 rounded-[10px] font-semibold bg-[#B1ED00] w-[167px] h-12'>
+                        <div className='flex-col flex sm:flex-row gap-7 items-center'>
+                            <button
+                                onClick={() => setIsModalOpen(true)}
+                                className='text-base cursor-pointer text-[#0D0D0D] px-[31px] py-3.5 rounded-[10px] font-semibold bg-[#B1ED00] w-full xs:w-[167px] h-12'>
                                 View Clip
                             </button>
-                            <button className='text-base text-[#0D0D0D] px-[31px] py-3.5 rounded-[10px] font-semibold bg-[#FFFFFF66] w-[167px] h-12'>
+                            <button
+                                onClick={() => setIsFeedModalOpen(true)}
+                                className='text-base cursor-pointer text-[#0D0D0D] px-[31px] py-3.5 rounded-[10px] font-semibold bg-[#FFFFFF66] w-full xs:w-[167px] h-12'>
                                 Live Feed
                             </button>
-                            <button className='text-base text-[#0D0D0D] px-[31px] py-3.5 rounded-[10px] font-semibold bg-white/30 w-[167px] h-12'>
-                                Live Feed
+                            <button className='text-base text-[#0D0D0D] px-[21px] py-3.5 rounded-[10px] font-semibold bg-white/30 w-full xs:w-[167px] h-12'>
+                                Mark reviewed
                             </button>
                         </div>
                     </div>
-                    <div className='flex justify-between border-b border-white space-y-[15px]'>
-                        <div className='flex gap-[15px] items-center'>
+                    <div className='flex-col lg:flex lg:flex-row justify-between border-b border-white space-y-[15px] pb-2 lg:pb-0'>
+                        <div className='flex gap-[15px] items-center '>
                             <Image width="86" height="86" alt='img' src="/images/lady.svg" />
                             <p className='text-white font-medium'>Customer placing item in personal bag without scanning</p>
                         </div>
-                        <div className='flex gap-7 items-center'>
-                            <button className='text-base text-[#0D0D0D] px-[31px] py-3.5 rounded-[10px] font-semibold bg-[#B1ED00] w-[167px] h-12'>
+                        <div className='flex-col flex sm:flex-row gap-7 items-center'>
+                            <button
+                                onClick={() => setIsModalOpen(true)}
+                                className='text-base cursor-pointer text-[#0D0D0D] px-[31px] py-3.5 rounded-[10px] font-semibold bg-[#B1ED00] w-full xs:w-[167px] h-12'>
                                 View Clip
                             </button>
-                            <button className='text-base text-[#0D0D0D] px-[31px] py-3.5 rounded-[10px] font-semibold bg-[#FFFFFF66] w-[167px] h-12'>
+                            <button
+                                onClick={() => setIsFeedModalOpen(true)}
+                                className='text-base cursor-pointer text-[#0D0D0D] px-[31px] py-3.5 rounded-[10px] font-semibold bg-[#FFFFFF66] w-full xs:w-[167px] h-12'>
                                 Live Feed
                             </button>
-                            <button className='text-base text-[#0D0D0D] px-[31px] py-3.5 rounded-[10px] font-semibold bg-white/30 w-[167px] h-12'>
-                                Live Feed
+                            <button className='text-base text-[#0D0D0D] px-[21px] py-3.5 rounded-[10px] font-semibold bg-white/30 w-full xs:w-[167px] h-12'>
+                                Mark reviewed
                             </button>
                         </div>
                     </div>

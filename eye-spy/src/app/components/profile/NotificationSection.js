@@ -2,10 +2,10 @@ import React from 'react'
 
 const NotificationSection = () => {
     return (
-        <div className='rounded-[20px] bg-[color:var(--color-darkest)] h-[180px] text-white px-[33px] py-5'>
+        <div className='rounded-[20px] bg-[color:var(--color-darkest)] md:h-[180px] text-white px-[33px] py-5'>
 
             <p className='text-sm font-semibold'>Notifications and preference</p>
-            <div className='pt-[29px] flex justify-between'>
+            <div className='pt-[29px] flex justify-between flex-wrap space-y-2'>
                 <div >
                     <p className='font-medium'>
                         Choose your preferred way to receive notifications from our system

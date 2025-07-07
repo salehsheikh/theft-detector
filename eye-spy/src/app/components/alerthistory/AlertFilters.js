@@ -8,11 +8,11 @@ const AlertFilter = () => {
         console.log("Selected:", val);
     };
     return (
-        <div className='rounded-[20px] h-[127px] py-5 px-[33px]  bg-[color:var(--color-darkest)]'>
+        <div className='rounded-[20px] lg:h-[127px] py-5 sm:px-[33px] px-3  bg-[color:var(--color-darkest)]'>
             <div className='flex-col space-y-7.5'>
                 <p className='text-sm text-white font-semibold'> Filters</p>
                 <div>
-                    <div className='grid grid-cols-6 gap-[9px] px-6'>
+                    <div className='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-[9px] px-6'>
                         <div className="relative w-full h-[40px]">
                             <div className="flex items-center px-4 h-full rounded-[15px] border border-white/20 bg-transparent text-white">
                                 <Icon icon="mynaui:search" className="text-white text-base mr-4 size-6" />

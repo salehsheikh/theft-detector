@@ -6,9 +6,9 @@ import React from 'react'
 const SignUp = () => {
     const router = useRouter();
     return (
-        <div className="flex justify-center items-center my-28.5 mx-8 relative">
+        <div className="flex-col md:flex md:flex-row space-y-4  justify-center items-center my-28.5 mx-8 relative">
             <div
-                className="absolute size-[302px] z-0 shrink-0 rounded-full -top-4 right-1/4"
+                className="absolute md:size-[302px] size-[160px] z-0 shrink-0 rounded-full md:-top-4  top-[19%]  right-1/4"
                 style={{
                     background: "linear-gradient(319deg, #E3FF91 17.52%, #85B103 95.06%)"
                 }}
@@ -20,9 +20,9 @@ const SignUp = () => {
                 }}
             ></div>
             <div className="flex-col space-y-7">
-                <p className="text-8xl font-semibold text-white pr-[55px] pt-24!">Enroll Your Journey!</p>
+                <p className="lg:text-8xl md:text-3xl text-2xl  font-semibold text-white pr-[55px] pt-24!">Enroll Your Journey!</p>
                 <div className="flex items-center gap-4 w-full">
-                    <button className="border-[4px] border-[#AFD148] py-3.5 px-[25px] rounded-[15px] flex justify-center items-center text-[32px] italic font-semibold">
+                    <button className="border-[4px] border-[#AFD148] py-3.5 px-[25px] rounded-[15px] flex justify-center items-center md:text-[32px] italic font-semibold">
                         Get Started
                     </button>
                     <hr className="flex-grow border-t-2 border-dashed border-white" />
@@ -30,7 +30,7 @@ const SignUp = () => {
 
             </div>
             <div
-                className="inline-flex relative flex-col bg-black/70 justify-end items-center px-[40px] py-[97px] pb-[76px] text-white overflow-hidden"
+                className="inline-flex max-w-[320px] xs:w-full xs:max-w-fit relative flex-col bg-black/70 justify-end items-center px-[40px] py-[97px] pb-[76px] text-white overflow-hidden"
                 style={{
                     borderRadius: "20px",
                     // background:
@@ -52,14 +52,14 @@ const SignUp = () => {
                 </div>
 
                 {/* Username */}
-                <div className="flex w-[400px] px-4 py-[14px] mt-6 items-center gap-2 border border-white rounded-[12px]">
+                <div className="flex md:w-[400px] w-full px-4 py-[14px] mt-6 items-center gap-2 border border-white rounded-[12px]">
                     <input
                         type="text"
                         placeholder="Username"
                         className="bg-transparent w-full outline-none placeholder-white text-xl"
                     />
                 </div>
-                <div className="flex w-[400px] px-4 py-[14px] mt-6 items-center gap-2 border border-white rounded-[12px]">
+                <div className="flex md:w-[400px] w-full px-4 py-[14px] mt-6 items-center gap-2 border border-white rounded-[12px]">
                     <input
                         type="text"
                         placeholder="Email/Phone"
@@ -68,7 +68,7 @@ const SignUp = () => {
                 </div>
 
                 {/* Password */}
-                <div className="flex w-[400px] px-4 py-[14px] mt-4 items-center gap-2 border border-white rounded-[12px]">
+                <div className="flex md:w-[400px] w-full px-4 py-[14px] mt-4 items-center gap-2 border border-white rounded-[12px]">
                     <input
                         type="password"
                         placeholder="Password"
@@ -78,7 +78,7 @@ const SignUp = () => {
                         <Icon icon="humbleicons:eye-close" width="18" height="18" />
                     </span>
                 </div>
-                <div className="flex w-[400px] px-4 py-[14px] mt-4 items-center gap-2 border border-white rounded-[12px]">
+                <div className="flex md:w-[400px] w-full px-4 py-[14px] mt-4 items-center gap-2 border border-white rounded-[12px]">
                     <input
                         type="password"
                         placeholder="Confirm Password"
@@ -93,11 +93,11 @@ const SignUp = () => {
                 {/* SignUp Button */}
                 <button
                     onClick={() => router.push("/login")}
-                    className="w-[400px] cursor-pointer bg-[#B1ED00] text-black rounded-[12px] py-3 mt-4 font-semibold text-xl">
+                    className="md:w-[400px] w-full cursor-pointer bg-[#B1ED00] text-black rounded-[12px] py-3 mt-4 font-semibold text-xl">
                     Sign Up
                 </button>
 
-                <div className="flex items-center justify-center gap-4 w-[400px] mt-6">
+                <div className="flex items-center justify-center gap-4 md:w-[400px] w-full mt-6">
                     <hr className="flex-grow h-[2px] bg-white/40 border-0" />
                     <span className="text-base font-medium text-white/40">or</span>
                     <hr className="flex-grow h-[2px] bg-white/40 border-0" />

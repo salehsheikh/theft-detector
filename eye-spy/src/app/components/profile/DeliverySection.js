@@ -3,16 +3,16 @@ import React from 'react'
 
 const DeliverySection = () => {
     return (
-        <div className='rounded-[20px] bg-[color:var(--color-darkest)] h-[180px] text-white px-[33px] py-5'>
+        <div className='rounded-[20px] bg-[color:var(--color-darkest)] sm:h-[180px] text-white px-[33px] py-5'>
 
             <p className='text-sm font-semibold'>Delivery Methods</p>
-            <div className='pt-[20px] flex '>
+            <div className='pt-[20px] flex flex-wrap '>
                 <div >
                     <p className='font-medium'>
                         Select your preferred delivery methods for orders.
                     </p>
                     <div className="text-xs font-medium flex pt-[13px] flex-col ">
-                        <div className='flex  gap-27.5'>
+                        <div className='flex  gap-8 sm:gap-27.5'>
                             <p className="flex items-center gap-1.5">
                                 <span className="w-[7px] h-[7px] rounded-full bg-[#B1ED00]"></span>
                                 Standard Delivery
@@ -22,7 +22,7 @@ const DeliverySection = () => {
                                 Express Delivery
                             </p>
                         </div>
-                        <div className='flex gap-23 pt-5 '>
+                        <div className='flex sm:gap-23  gap-4 pt-5 '>
                             <p className="flex items-center gap-1.5">
                                 <span className="w-[7px] h-[7px] rounded-full bg-[#959595]"></span>
                                 International Delivery

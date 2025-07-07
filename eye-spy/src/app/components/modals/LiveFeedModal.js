@@ -16,7 +16,7 @@ const LiveFeedModal = ({ onClose }) => {
                         </p>
 
                     </div>
-                    <div className='flex justify-start ml-14 mt-2.5 mb-12.5'> Live feed</div>
+                    <div className='flex justify-start ml-14 mt-2.5 mb-12.5 text-white'> Live feed</div>
                 </div>
 
                 <div className='grid grid-cols-2 xl:grid-cols-3'>

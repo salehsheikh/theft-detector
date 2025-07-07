@@ -26,16 +26,16 @@ const CtaModal = ({ onClose }) => {
                 <div className='pt-6'>
                     <Image src="/images/ladym.png" alt='img' width="752" height="494" className='xl:w-[652px] xl:h-[394px] lg:w-[552px] h-[294px]' />
                 </div>
-                <div className='flex justify-between'>
-                    <button className='w-[198px] h-10 bg-[#B1ED00] rounded-[10px] text-black text-sm font-semibold
+                <div className='flex justify-between flex-wrap space-y-2 px-1'>
+                    <button className='xs:w-[198px] w-full h-10 bg-[#B1ED00] rounded-[10px] text-black text-sm font-semibold
                     leading-5 flex items-center justify-center'>
                         Mark as resolved
                     </button>
-                    <button className='w-[198px] h-10 bg-transparent rounded-[10px] text-[#FF2D55] border border-pink-600 text-sm font-semibold
+                    <button className='xs:w-[198px] w-full h-10 bg-transparent rounded-[10px] text-[#FF2D55] border border-pink-600 text-sm font-semibold
                     leading-5 flex items-center justify-center'>
                         Unresolved
                     </button>
-                    <button className='w-[198px] h-10 bg-[#FF950080] rounded-[10px] text-white   text-sm font-semibold
+                    <button className='xs:w-[198px] w-full h-10 bg-[#FF950080] rounded-[10px] text-white   text-sm font-semibold
                     leading-5 flex items-center justify-center'>
                         Pending
                     </button>

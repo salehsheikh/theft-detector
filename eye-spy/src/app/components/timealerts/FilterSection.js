@@ -7,11 +7,11 @@ const FilterSection = () => {
     console.log("Selected:", val);
   };
   return (
-    <div className='rounded-[20px] h-[127px] py-5 px-[33px]  bg-[color:var(--color-darkest)]'>
+    <div className='rounded-[20px] lg:h-[127px] py-5 px-[33px]  bg-[color:var(--color-darkest)]'>
       <div className='flex-col space-y-7.5'>
         <p className='text-sm text-white font-semibold'> Filters</p>
         <div>
-          <div className='grid grid-cols-5 gap-11 px-6'>
+          <div className='grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 xl:gap-11 gap-2.5 px-6'>
             <div className="relative w-full h-[40px]">
               <div className="flex items-center px-4 h-full rounded-[15px] border border-white/20 bg-transparent text-white">
                 <Icon icon="mynaui:search" className="text-white text-base mr-4 size-6" />
