@@ -16,7 +16,7 @@ const CtaModal = ({ onClose }) => {
                         </p>
 
                     </div>
-                    <div className='w-[114px] mt-4 rounded-[10px] h-10 border flex items-center justify-center text-xs border-[#B1EC00] text-[#B1ED00]'>
+                    <div className='w-[114px] cursor-pointer mt-4 rounded-[10px] h-10 border flex items-center justify-center text-xs border-[#B1EC00] text-[#B1ED00]'>
                         Download
                     </div>
                 </div>
@@ -27,15 +27,15 @@ const CtaModal = ({ onClose }) => {
                     <Image src="/images/ladym.png" alt='img' width="752" height="494" className='xl:w-[652px] xl:h-[394px] lg:w-[552px] h-[294px]' />
                 </div>
                 <div className='flex justify-between flex-wrap space-y-2 px-1'>
-                    <button className='xs:w-[198px] w-full h-10 bg-[#B1ED00] rounded-[10px] text-black text-sm font-semibold
+                    <button className='xs:w-[198px] cursor-pointer w-full h-10 bg-[#B1ED00] rounded-[10px] text-black text-sm font-semibold
                     leading-5 flex items-center justify-center'>
                         Mark as resolved
                     </button>
-                    <button className='xs:w-[198px] w-full h-10 bg-transparent rounded-[10px] text-[#FF2D55] border border-pink-600 text-sm font-semibold
+                    <button className='xs:w-[198px] cursor-pointer w-full h-10 bg-transparent rounded-[10px] text-[#FF2D55] border border-pink-600 text-sm font-semibold
                     leading-5 flex items-center justify-center'>
                         Unresolved
                     </button>
-                    <button className='xs:w-[198px] w-full h-10 bg-[#FF950080] rounded-[10px] text-white   text-sm font-semibold
+                    <button className='xs:w-[198px] cursor-pointer w-full h-10 bg-[#FF950080] rounded-[10px] text-white   text-sm font-semibold
                     leading-5 flex items-center justify-center'>
                         Pending
                     </button>

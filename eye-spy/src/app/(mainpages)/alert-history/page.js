@@ -125,7 +125,7 @@ const Page = () => {
     ];
     return (
         <>
-            <div className='md:mx-[63px] mx-4 space-y-7.5 pb-2'>
+            <div className='px-3 container space-y-7.5 pb-2'>
                 <div className='flex justify-between'>
                     <div>
 

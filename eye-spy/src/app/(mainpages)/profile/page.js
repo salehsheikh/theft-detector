@@ -28,7 +28,7 @@ const Page = () => {
     return (
 
         <>
-            <div className='md:mx-[63px] mx-4 pb-2'>
+            <div className=' px-4 container pb-2'>
 
 
                 <div className=' space-y-7.5 pb-8.5'>

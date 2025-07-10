@@ -20,15 +20,15 @@ const AlertsTable = () => {
                         <div className='flex-col flex sm:flex-row gap-7 items-center'>
                             <button
                                 onClick={() => setIsModalOpen(true)}
-                                className='text-base cursor-pointer text-[#0D0D0D] px-[31px] py-3.5 rounded-[10px] font-semibold bg-[#B1ED00] w-full xs:w-[167px] h-12'>
+                                className='text-base cursor-pointer text-[#0D0D0D] px-[31px] py-3.5 rounded-[10px] font-semibold bg-[#B1ED00] w-full sm:w-[167px] h-12'>
                                 View Clip
                             </button>
                             <button
                                 onClick={() => setIsFeedModalOpen(true)}
-                                className='text-base cursor-pointer text-[#0D0D0D] px-[31px] py-3.5 rounded-[10px] font-semibold bg-[#FFFFFF66] w-full xs:w-[167px] h-12'>
+                                className='text-base cursor-pointer text-[#0D0D0D] px-[31px] py-3.5 rounded-[10px] font-semibold bg-[#FFFFFF66] w-full sm:w-[167px] h-12'>
                                 Live Feed
                             </button>
-                            <button className='text-base text-[#0D0D0D] px-[21px] py-3.5 rounded-[10px] font-semibold bg-white/30 w-full xs:w-[167px] h-12'>
+                            <button className='text-base cursor-pointer text-[#0D0D0D] px-[21px] py-3.5 rounded-[10px] font-semibold bg-white/30 w-full sm:w-[167px] h-12'>
                                 Mark reviewed
                             </button>
                         </div>
@@ -41,15 +41,15 @@ const AlertsTable = () => {
                         <div className='flex-col flex sm:flex-row gap-7 items-center'>
                             <button
                                 onClick={() => setIsModalOpen(true)}
-                                className='text-base cursor-pointer text-[#0D0D0D] px-[31px] py-3.5 rounded-[10px] font-semibold bg-[#B1ED00] w-full xs:w-[167px] h-12'>
+                                className='text-base cursor-pointer text-[#0D0D0D] px-[31px] py-3.5 rounded-[10px] font-semibold bg-[#B1ED00] w-full sm:w-[167px] h-12'>
                                 View Clip
                             </button>
                             <button
                                 onClick={() => setIsFeedModalOpen(true)}
-                                className='text-base cursor-pointer text-[#0D0D0D] px-[31px] py-3.5 rounded-[10px] font-semibold bg-[#FFFFFF66] w-full xs:w-[167px] h-12'>
+                                className='text-base cursor-pointer text-[#0D0D0D] px-[31px] py-3.5 rounded-[10px] font-semibold bg-[#FFFFFF66] w-full sm:w-[167px] h-12'>
                                 Live Feed
                             </button>
-                            <button className='text-base text-[#0D0D0D] px-[21px] py-3.5 rounded-[10px] font-semibold bg-white/30 w-full xs:w-[167px] h-12'>
+                            <button className='text-base cursor-pointer text-[#0D0D0D] px-[21px] py-3.5 rounded-[10px] font-semibold bg-white/30 w-full sm:w-[167px] h-12'>
                                 Mark reviewed
                             </button>
                         </div>
@@ -62,15 +62,15 @@ const AlertsTable = () => {
                         <div className='flex-col flex sm:flex-row gap-7 items-center'>
                             <button
                                 onClick={() => setIsModalOpen(true)}
-                                className='text-base cursor-pointer text-[#0D0D0D] px-[31px] py-3.5 rounded-[10px] font-semibold bg-[#B1ED00] w-full xs:w-[167px] h-12'>
+                                className='text-base cursor-pointer text-[#0D0D0D] px-[31px] py-3.5 rounded-[10px] font-semibold bg-[#B1ED00] w-full sm:w-[167px] h-12'>
                                 View Clip
                             </button>
                             <button
                                 onClick={() => setIsFeedModalOpen(true)}
-                                className='text-base cursor-pointer text-[#0D0D0D] px-[31px] py-3.5 rounded-[10px] font-semibold bg-[#FFFFFF66] w-full xs:w-[167px] h-12'>
+                                className='text-base cursor-pointer text-[#0D0D0D] px-[31px] py-3.5 rounded-[10px] font-semibold bg-[#FFFFFF66] w-full sm:w-[167px] h-12'>
                                 Live Feed
                             </button>
-                            <button className='text-base text-[#0D0D0D] px-[21px] py-3.5 rounded-[10px] font-semibold bg-white/30 w-full xs:w-[167px] h-12'>
+                            <button className='text-base cursor-pointer text-[#0D0D0D] px-[21px] py-3.5 rounded-[10px] font-semibold bg-white/30 w-full sm:w-[167px] h-12'>
                                 Mark reviewed
                             </button>
                         </div>
@@ -83,15 +83,15 @@ const AlertsTable = () => {
                         <div className='flex-col flex sm:flex-row gap-7 items-center'>
                             <button
                                 onClick={() => setIsModalOpen(true)}
-                                className='text-base cursor-pointer text-[#0D0D0D] px-[31px] py-3.5 rounded-[10px] font-semibold bg-[#B1ED00] w-full xs:w-[167px] h-12'>
+                                className='text-base cursor-pointer text-[#0D0D0D] px-[31px] py-3.5 rounded-[10px] font-semibold bg-[#B1ED00] w-full sm:w-[167px] h-12'>
                                 View Clip
                             </button>
                             <button
                                 onClick={() => setIsFeedModalOpen(true)}
-                                className='text-base cursor-pointer text-[#0D0D0D] px-[31px] py-3.5 rounded-[10px] font-semibold bg-[#FFFFFF66] w-full xs:w-[167px] h-12'>
+                                className='text-base cursor-pointer text-[#0D0D0D] px-[31px] py-3.5 rounded-[10px] font-semibold bg-[#FFFFFF66] w-full sm:w-[167px] h-12'>
                                 Live Feed
                             </button>
-                            <button className='text-base text-[#0D0D0D] px-[21px] py-3.5 rounded-[10px] font-semibold bg-white/30 w-full xs:w-[167px] h-12'>
+                            <button className='text-base cursor-pointer text-[#0D0D0D] px-[21px] py-3.5 rounded-[10px] font-semibold bg-white/30 w-full sm:w-[167px] h-12'>
                                 Mark reviewed
                             </button>
                         </div>

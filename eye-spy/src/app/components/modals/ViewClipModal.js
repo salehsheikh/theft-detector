@@ -16,7 +16,7 @@ const ViewClipModal = ({ onClose }) => {
                         </p>
 
                     </div>
-                    <div className='w-[114px] mt-4 rounded-[10px] h-10 border flex items-center justify-center text-xs border-[#B1EC00] text-[#B1ED00]'>
+                    <div className='w-[114px] cursor-pointer mt-4 rounded-[10px] h-10 border flex items-center justify-center text-xs border-[#B1EC00] text-[#B1ED00]'>
                         Download
                     </div>
                 </div>

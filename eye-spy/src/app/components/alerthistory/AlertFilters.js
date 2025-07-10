@@ -23,7 +23,7 @@ const AlertFilter = () => {
                                 />
                             </div>
                         </div>
-                        <div className='w-full h-10 shrink-0 text-sm text-black flex items-center justify-center rounded-[15px] bg-[#B1ED00]'>
+                        <div className='w-full cursor-pointer h-10 shrink-0 text-sm text-black flex items-center justify-center rounded-[15px] bg-[#B1ED00]'>
                             Date Range
                         </div>
                         <Dropdown
@@ -41,7 +41,7 @@ const AlertFilter = () => {
                             options={["Admin", "User", "Staff"]}
                             onSelect={handleChange}
                         />
-                        <div className='w-full h-10 shrink-0 text-sm text-white border border-white/22 flex items-center justify-center rounded-[15px] bg-transparent'>
+                        <div className='w-full cursor-pointer h-10 shrink-0 text-sm text-white border border-white/22 flex items-center justify-center rounded-[15px] bg-transparent'>
                             Clear Filters
                         </div>
                     </div>

@@ -22,8 +22,8 @@ const Navbar = () => {
     "bg-[#B1ED00] text-[#000000] text-sm font-medium  rounded-[10px] w-[139.084px] h-[43px] flex items-center justify-center";
 
   return (
-    <nav className="w-full px-4 py-5 bg-transparent">
-      <div className="flex items-center justify-between md:justify-around">
+    <nav className="w-full px-3 py-5 container bg-transparent">
+      <div className="flex items-center justify-between ">
         <div className="shrink-0">
           <Image src="/images/logo.svg" alt="logo" width={114} height={66} />
         </div>
@@ -43,12 +43,12 @@ const Navbar = () => {
           />
         </div>
 
-        <div className="hidden md:flex bg-[color:var(--color-darkest)] text-white xl:max-w-[897px] lg:max-w-[697px] md:max-w-[540px] h-[69px] rounded-[10px] w-full mx-4 items-center justify-between px-3">
+        <div className="hidden md:flex bg-[color:var(--color-darkest)] text-white xl:max-w-[897px] lg:max-w-[697px] md:max-w-[540px] h-[69px] rounded-[10px] w-full  items-center justify-between px-3">
           {navItems.map((item) => (
             <Link
               key={item.href}
               href={item.href}
-              className={`text-sm font-medium cursor-pointer whitespace-nowrap transition-all duration-300 ${pathname === item.href ? activeStyle : "px-3 py-2"
+              className={`text-sm font-medium cursor-pointer whitespace-nowrap  ${pathname === item.href ? activeStyle : "px-3 py-2"
                 }`}
             >
               {item.label}
@@ -70,7 +70,7 @@ const Navbar = () => {
             <Link
               key={item.href}
               href={item.href}
-              className={`block text-sm font-medium cursor-pointer transition-all duration-300 ${pathname === item.href ? activeStyle : "py-2 px-3"
+              className={`block text-sm font-medium cursor-pointer  ${pathname === item.href ? activeStyle : "py-2 px-3"
                 }`}
               onClick={() => setIsOpen(false)}
             >

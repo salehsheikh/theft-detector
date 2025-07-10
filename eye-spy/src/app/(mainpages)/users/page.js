@@ -81,7 +81,7 @@ const Page = () => {
   ];
 
   return (
-    <div className="md:mx-[63px] mx-4 pb-2">
+    <div className="container px-4 pb-2">
       <div>
         <p className="text-[20px] font-semibold text-white pb-2.5 z-50">User Management</p>
         <p className="pb-3.5 text-white text-sm font-medium z-50">

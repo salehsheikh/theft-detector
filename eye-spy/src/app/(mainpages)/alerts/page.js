@@ -5,7 +5,7 @@ import React from 'react'
 
 const Page = () => {
   return (
-    <div className='md:mx-[63px] mx-4 space-y-7.5 pb-2'>
+    <div className='px-3 container space-y-7.5 pb-2'>
       <div>
         <p className="text-[20px] font-semibold text-white pb-2.5 z-50">Real-Time Alerts</p>
         <p className="pb-3.5 text-white text-sm font-medium z-50">
