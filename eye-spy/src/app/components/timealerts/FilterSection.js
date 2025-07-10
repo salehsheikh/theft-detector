@@ -37,7 +37,7 @@ const FilterSection = () => {
               options={["Admin", "User", "Staff"]}
               onSelect={handleChange}
             />
-            <div className='w-full h-10 shrink-0 text-sm text-black flex items-center justify-center rounded-[15px] bg-[#B1ED00]'>
+            <div className='w-full cursor-pointer h-10 shrink-0 text-sm text-black flex items-center justify-center rounded-[15px] bg-[#B1ED00]'>
               Clear filters
             </div>
           </div>
